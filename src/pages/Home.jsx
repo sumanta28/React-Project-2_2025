@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { getPokemonList } from "../api/pokemonapi";
 import PokemonCard from "../components/PokemonCard";
-import PaginationCard from "../components/PaginationCard.jsx";
+import PaginationCard from "../components/PaginationCard";
+
 
 import {
   Container,
